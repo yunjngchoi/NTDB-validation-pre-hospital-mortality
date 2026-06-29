@@ -75,11 +75,18 @@ The purpose is to assess whether model performance remains stable over time, whe
 
 Candidate subgroup analyses include age, sex, mechanism of injury, anatomical severity, physiologic severity, and prehospital cardiac arrest availability.
 
-## Data Availability
+## File Structure
 
-Raw trauma registry data are not included in this repository.
+```text
+.
+├── model                   # Saved final trained model file
+├── threshold_optimizer.py  # Threshold selection and optimization utilities
+├── model_loader.py         # Functions for loading the saved model and required objects
+├── model_predictor.py      # Model inference and calibrated probability prediction
+├── evaluation.py           # Evaluation metrics and threshold-based performance analysis
+└── README.md               # Documentation for the model loading, prediction, and evaluation workflow
+```
 
-This repository does not contain protected health information, identifiable patient data, raw NTDB files, or institution-specific identifiers.
 
 ## License
 
