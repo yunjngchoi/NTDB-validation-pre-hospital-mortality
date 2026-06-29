@@ -1,4 +1,4 @@
-def evaluation_threshold(proba, label, threshold=0.5, verbose=True):
+def evaluation_threshold(proba, label, threshold, verbose=True):
 
     proba = np.asarray(proba).ravel()
     label = np.asarray(label).ravel()
