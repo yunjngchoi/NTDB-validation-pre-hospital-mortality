@@ -79,12 +79,12 @@ Candidate subgroup analyses include age, sex, mechanism of injury, anatomical se
 
 ```text
 .
-├── model                   # Saved final trained model file
+├── model                 # Final saved model file used for external validation
+├── model_loader.py       # Functions for loading the saved model and related objects
+├── model_predictor.py    # Functions for predicting and calibrating
 ├── threshold_optimizer.py  # Threshold selection and optimization utilities
-├── model_loader.py         # Functions for loading the saved model and required objects
-├── model_predictor.py      # Model inference and calibrated probability prediction
-├── evaluation.py           # Evaluation metrics and threshold-based performance analysis
-└── README.md               # Documentation for the model loading, prediction, and evaluation workflow
+├── evaluation.py         # Evaluation utilities, including threshold-based metrics
+└── README.md             # Project overview and usage instructions
 ```
 
 
