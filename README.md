@@ -86,8 +86,3 @@ Candidate subgroup analyses include age, sex, mechanism of injury, anatomical se
 ├── evaluation.py         # Evaluation utilities, including threshold-based metrics
 └── README.md             # Project overview and usage instructions
 ```
-
-
-## License
-
-For academic and research use only.
